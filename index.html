@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="assets/img.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/861ce09321.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather">
+        <h1>Weather Condition <img src="" alt=""></h1>
+        <img src="assets/img.webp" alt="">
+    </div>
+    <div class="container">
+        <section class="main">
+            <section class="inputs">
+                <input type="text" value="" placeholder="Enter Your City Name...." id="Cityinput">
+                <button id="add"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </section> 
+
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                    <p id="description"></p>
+                    <p id="temp" class="py-5"></p>
+                    <p id="wind" class="py-5"></p>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

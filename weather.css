@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:  url(assets/bg.jpg);
+}
+.weather{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    color: rgb(217, 167, 101);
+}
+.weather img{
+    width: 100px;
+}
+.container{
+    width: 600px;
+    margin:  50px auto;
+
+    padding: 40px;
+}
+.inputs{
+    padding:  2rem 0 3rem 0;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(5, 97, 85);
+    border-radius: 10px;
+    height: 150px;
+}
+
+.inputs input[type="text"]{
+    height: 4rem;
+    width: 20rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(7, 167, 231);
+    border-radius: 5px;
+    margin-right: 4px;
+}
+
+.inputs [id="add"]{
+    height: 4rem;
+    width: 8rem;
+    background: rgb(7, 167, 231);
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color: #16a864;
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: rgb(135, 235, 210);
+    height: 35vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    height: 5vh;
+    background: rgb(75, 185, 172);
+    color: rgb(240, 15, 116);
+}
+.wrapper p img{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: -15px;
+}
+.wrapper p{
+    font-style: italic;
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size: 23px;
+}
+.wrapper h2 span{
+    font-size: 26px;
+    color: rgb(13, 61, 55);
+
+}
+.wrapper p span{
+    color: #5e0df4;
+    font-size: 25px;
+}
+@media only screen and (max-width: 700px){
+    body{
+        background-image:  url(assets/bg.jpg);
+    }
+    .weather{
+        display: block;
+        width: 100%;
+        margin-left: 35%;
+        text-align: center;
+        padding-top: 80px;
+        color: rgb(217, 167, 101);
+    }
+    .weather h1{
+        font-size: 50px;
+        width: 100%;
+    }
+    .weather img{
+        width: 150px;
+    }
+    .container{
+        width: 600px;
+        margin:  50px auto;
+    
+        padding: 40px;
+    }
+    .inputs{
+        padding:  2rem 0 3rem 0;
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(5, 97, 85);
+        border-radius: 10px;
+        height: 150px;
+    }
+    
+    .inputs input[type="text"]{
+        height: 4rem;
+        width: 20rem;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        border: 2px solid rgb(7, 167, 231);
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+    
+    .inputs [id="add"]{
+        height: 4rem;
+        width: 8rem;
+        background: rgb(7, 167, 231);
+        font-weight: bold;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        margin-top: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .display{
+        text-align: center;
+        width: 520px;
+        color: #16a864;
+    }
+    .wrapper{
+        margin: 0 9rem;
+        background-color: rgb(135, 235, 210);
+        height: 60vh;
+        margin: 50px auto;
+        border-radius: 2px;
+    }
+    .wrapper h2{
+        padding: 5px 0;
+        text-align: center;
+        height: 5vh;
+        background: rgb(75, 185, 172);
+        color: rgb(240, 15, 116);
+    }
+    .wrapper p img{
+        width: 50px;
+        margin-left: 20px;
+        margin-bottom: -15px;
+    }
+    .wrapper p{
+        font-style: italic;
+        margin: 20px 50px;
+        margin-right: 20px;
+        text-align: left;
+        color: #04214c;
+        font-size: 23px;
+    }
+    .wrapper h2 span{
+        font-size: 26px;
+        color: rgb(13, 61, 55);
+    
+    }
+    .wrapper p span{
+        color: #5e0df4;
+        font-size: 25px;
+    }
+}
